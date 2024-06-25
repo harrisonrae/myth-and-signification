@@ -1,3 +1,10 @@
+h1 {
+    color: rgb(155, 114, 0);
+    width: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
 body {
     display: flex;
     flex-direction: column;
