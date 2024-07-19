@@ -5,34 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myth & Signification</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hidden-textbox {
+            display: none;
+        }
+
+        .hidden-text {
+            display: none; /* Initially hide the text */
+            overflow: auto; /* Enable scrolling */
+        }
+
+        .hidden-text::-webkit-scrollbar {
+            display: none; /* Hide scrollbars in WebKit browsers */
+        }
+
+        .hidden-text {
+            scrollbar-width: none; /* Hide scrollbars in Firefox */
+        }
+
+        .hidden-text {
+            -ms-overflow-style: -ms-autohiding-scrollbar; /* Internet Explorer 10+ */
+        }
+
+        .image-container img {
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .image-container img.hide {
+            display: none;
+        }
+
+        .image-container .show {
+            display: block;
+        }
+
+        .images-row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .image-container {
+            flex: 1 1 200px;
+            margin: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
 </head>
 <body>
-    <button id="essayButton">Curatorial Essay</button>
+    <button id="essayButton">Myth & Signification</button>
     <div id="essayTextBox" class="hidden-textbox">
         <p>“It matters what stories make worlds, what worlds make stories.”</p>
-        <p>Myths are stories. However, they are stories, considered and condensed, with finer details and other perspectives omitted by a mythmaker. The erasure of complexity for the benefit of storytelling is the motive behind Roland Barthes calling myth dangerous. In Barthes’ analysis of myth, he begins with a demarcation of form from content. Following this, he states that myth is a form of speech, and therefore as a form of speech, it belongs to the study of linguistic semiology. Following his identification of myth and the necessary mode of analysis, Barthes draws out the relationship between Myth & Signification demonstrating this through the diagram below.</p>
+        <p>Myths are stories; considered and condensed, with details and perspectives omitted by a mythmaker.
+            The ability of myth as a tool is that it can distort and change what an image or phrase signifies; 
+            erasing complexities of human actions and creating worlds without contradiction. 
+            This power to erase meaning is Roland Barthes’ motive for labelling myth as dangerous. </p>
     </div>
 
     <div id="essayTextBox2" class="hidden-textbox">
-        <p>To briefly elucidate the above diagram: there are two semiological systems, language and a metalanguage that from hereon will be called myth. The system called language is what we use to communicate at a base level. Contained within the sign is meaning and without understanding the signifier or the signified we cannot communicate anything to another. At its simplest level, a friend's frowning face is a signifier, what is signified is the friend's negative emotion and the sign that we read from our friend's expression is that they are feeling a negative emotion. Building upon this relationship between signifier, signified and sign we are able to communicate with one another.</p>
-    </div>
-
-    <div id="essayTextBox3" class="hidden-textbox">
-        <p>As a metalanguage myth uses ordinary language as a tool to build its own system. Myth is effective at emptying the meaning of the sign as it becomes a signifier in the metalanguage system. Therefore the metalanguage can sign something that contradicts the original meaning of the sign. The example Barthes uses in his text is a black soldier from a French colony giving a French salute. The intention of this propaganda is the propagation of the myth of unity across the French colonies. Barthes' unease with myth lies in the fact that the histories of trauma and colonisation are erased.        </p>
-    </div>
-
-    <div id="essayTextBox4" class="hidden-textbox">
-        <p>Barthes' concerns are that mythmakers use myth as a tool to abolish the complexity of human actions, and therefore the consequences that we continue to meet with are explained away as unavoidable. The intention of the mythmakers according to Barthes is the creation of a world without contradiction. Despite the idyllic tone of a world without contradiction the effect is the dismissal of other perspectives. Roland Boer echoes this in The Robbery of Language writing that the crafting of “a world without contradiction” is an undeniable acknowledgement of the undercurrent of oppositional perspectives being erased in favour of a singular vision. However Boer posits that within myth there are opportunities for using counter-myth as a means to resist the world becoming singular.</p>
-    </div>
-
-    <div id="essayTextBox5" class="hidden-textbox">
-        <p>Myth & Signification invites four artists to approach myth and counter-myth as building blocks for crafting oppositional worlds that contest dominant discourses. Astrid Elouise Bell is pulled towards the subjects for her triptych of paintings. Her considered practice of rummaging and reflection studies subjects with their own myths and employs painting as a tool for extending the myth of each subject in a new direction, multiplying their mythology with each brushstroke. Sydney Jarrett’s work also engages with similar ideas of  furthering mythologies. Jarrett’s installation references Jordy Rosenberg’s Confession of the Fox and explores how one can trace the creation of myth through archival histories while also extending upon stories that can serve as vehicles for truth. Harrison Rae’s textiles and found objects continues his research into the myth of John Busby. Rae’s work contests the quiet reverence placed upon Busby and the erasure of what was forced upon prisoners and labourers working on Busby’s Bore - a waterway under Oxford Street connecting Centennial Park to Hyde Park. Finally the video work by Nic Narapiromkwan Foo documents the artist praying at the site of Kits on River Road. The documentation is a means to consolidate the demolished restaurant as its own myth and serves as a reminder of myths’ relationship with ritual and memory. 
+        <p>The example Barthes uses to demonstrate myths ability to hijack and distort the
+             meaning of an image or phrase is presented in Myth Today.  
+             The reader is presented a description of a French propaganda poster depicting a black soldier from a French colony
+              giving a French salute. The intention of this propaganda is to claim there is unity across the French colonies. 
+              With a semiological deconstruction of this image we can identify that the signifier is a black soldier, 
+              the signified is French patriotism and the sign is the myth that there is unity across the French colonies. 
+              Our unease with myth lies in the fact that in reading the posters mythic metalanguage this image as a 
+              consequence of human actions and the related histories of trauma and colonisation are erased.
         </p>
     </div>
 
+    <div id="essayTextBox3" class="hidden-textbox">
+        <p>Roland Boer writes in The Robbery of Language that the crafting of “a world without contradiction” 
+            is an undeniable acknowledgement of the undercurrent of oppositional perspectives erased in favour
+             of a singular vision. Boer posits that within myth there are opportunities for using counter-myth
+              as a means to resist the erasure of other perspectives.
+        </p>
+    </div>
+
+    <div id="essayTextBox4" class="hidden-textbox">
+        <p>Myth & Signification invites four artists to approach myth and counter-myth as 
+            building blocks for crafting oppositional worlds to contest dominant discourses 
+            and resist the homogenisation of perspective. resist the exploitation of land and 
+            labour and resist the gendering of bodies. Astrid Elouise Bell is pulled towards the
+             subjects for her triptych of paintings, and her considered practice of rummaging and
+              reflection studies subjects with their own myths. Bell tbh employs painting as a tool for
+               expanding the myth of each subject in a new direction, multiplying their mythology with each brushstroke. 
+               Sydney Jarrett’s work also engages with similar ideas of  furthering mythologies. Jarrett’s installation 
+               references Jordy Rosenberg’s Confession of the Fox and explores how one can trace the creation of myth 
+               through archival histories while also extending upon stories that can serve as vehicles for truth. 
+               Harrison Rae’s textiles and found objects continues his research into the myth of John Busby. Rae’s 
+               work contests the quiet reverence placed upon Busby and the erasure of what was forced upon prisoners 
+               and labourers working on Busby’s Bore - a waterway under Oxford Street connecting Centennial Park to Hyde Park. 
+               Finally the video work by Nic Narapiromkwan Foo documents the artist praying at the site of Kits on River Road. 
+               The documentation is a means to consolidate the demolished restaurant as its own myth and serves as a reminder 
+               of myths’ relationship with ritual and memory.</p>
+
+           <p>Together these works craft their own world of contradiction through counter myth. A world resisting the homogenisation of perspectives, the gendering of bodies, and the exploitation of land and labour. 
+            </p>
+    </div>
+
+  
+
     <div class="images-row">
         <div class="image-container">
-            <img src="myrock.png" alt="Image 1">
+            <img src="harry rock 3.png" alt="Image 1">
             <div class="hidden-text">
                 <h3>Harrison Rae</h3>
                 <p>Harrison Rae is an artist and musician working on Gadigal land. His practice reflects upon the poetics of ordinary objects and histories, approaching storytelling through mixed media and installation.</p>
@@ -117,17 +199,14 @@
             essayTextBox4.style.display = 'flex';
         });
 
-        document.getElementById('essayTextBox4').addEventListener('click', function() {
-            const essayTextBox5 = document.getElementById('essayTextBox5');
-            essayTextBox5.style.display = 'flex';
-        });
 
-        document.getElementById('essayTextBox5').addEventListener('click', function() {
+
+        document.getElementById('essayTextBox4').addEventListener('click', function() {
             const essayTextBox = document.getElementById('essayTextBox');
             const essayTextBox2 = document.getElementById('essayTextBox2');
             const essayTextBox3 = document.getElementById('essayTextBox3');
             const essayTextBox4 = document.getElementById('essayTextBox4');
-            const essayTextBox5 = document.getElementById('essayTextBox5');
+
             const imagesRow = document.querySelector('.images-row');
 
             // Hide all essay text boxes and show the images row
@@ -135,7 +214,6 @@
             essayTextBox2.style.display = 'none';
             essayTextBox3.style.display = 'none';
             essayTextBox4.style.display = 'none';
-            essayTextBox5.style.display = 'none';
             imagesRow.style.display = 'flex';
         });
     </script>
