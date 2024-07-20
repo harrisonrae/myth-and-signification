@@ -123,7 +123,7 @@ h3 {
         position: static;
         width: 100%;
         text-align: center;
-        margin: 10px 0;
+        margin: 10px 10px;
     }
 
     .images-row {
@@ -145,6 +145,6 @@ h3 {
         position: relative;
         background: none;
         padding: 10px 0;
-        display: block;
+        display: none;
     }
 }
