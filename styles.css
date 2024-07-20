@@ -129,22 +129,23 @@ h3 {
     .images-row {
         margin-top: 10px; /* Remove margin since button is above */
         order: 1;
+    
     }
 
     .image-container {
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
         padding: 50px;
     }
 
     .image-container img {
         width: 100%;
-        height: auto;
+        height: cover;
         padding: 40px;
     }
 
     .hidden-text {
-        position: relative;
+        position: sticky;
         background: none;
         padding: 40px 0;
         display: none;
