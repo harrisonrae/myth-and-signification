@@ -21,17 +21,17 @@ body {
 }
 
 .image-container {
-    width: 200px;
-    height: 200px;
-    margin: 0 50px;
+    width: 250px;
+    height: 250px;
+    margin: 0 40px;
     position: sticky;/* Changed from sticky to relative */
     cursor: grab;
 }
 
 #essayButton {
     position: absolute;
-    top: 60px;
-    right: 60px;
+    top: 10px;
+    right: 100px;
     padding: 20px 10px;
     font-size: 16px;
     cursor: alias;
@@ -56,6 +56,7 @@ body {
     z-index: 1000;
     flex-direction: column;
     justify-content: center;
+    cursor: not-allowed
 }
 
 .image-container img {
@@ -81,16 +82,16 @@ body {
 
 .hidden-text {
     display: none;
-    position: sticky;
-    top: 20px;
+    position: static;
+    top: 0px;
     left: 0px;
     width: 100%;
     height: 200%;
-    background-color: rgb(214, 137, 201);
-    padding: 40px; /* Corrected padding value */
+    background-color: transparent;
     box-sizing: content-box; /* Corrected value */
     overflow: auto;
-    color: rgb(234, 255, 0);
+   font-size: larger;
+   color: white
 }
 
 .hidden-text::-webkit-scrollbar {
@@ -107,4 +108,32 @@ body {
 
 h3 {
     margin-top: 0;
+}
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    #essayButton {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .images-row {
+        margin-top: 50px; /* Adjust margin to ensure space between button and images */
+    }
+
+    .image-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
 }
