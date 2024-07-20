@@ -116,7 +116,7 @@ h3 {
 @media (max-width: 768px) {
     body {
         flex-direction: column;
-        align-items: stretch;
+        align-items: flex-start;
     }
 
     #essayButton {
@@ -127,7 +127,7 @@ h3 {
     }
 
     .images-row {
-        margin-top: 0; /* Remove margin since button is above */
+        margin-top: 10px; /* Remove margin since button is above */
         order: 1;
     }
 
@@ -141,7 +141,7 @@ h3 {
         height: auto;
     }
 
-    .image-container .hidden-text {
+    .hidden-text {
         position: relative;
         background: none;
         padding: 10px 0;
