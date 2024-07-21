@@ -138,9 +138,10 @@ h3 {
     .image-container {
         width: 100%;
         margin-bottom: 0px;
-        padding: 90px;
+        padding: 00px;
     }
 
+    
     .image-container img {
         width: 100%;
         height: cover;
