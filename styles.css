@@ -118,19 +118,20 @@ h3 {
     body {
         flex-direction: column;
         align-items: flex-start;
+        padding: 30px;
     }
 
     #essayButton {
-        position: center;
+        position: relative;
         width: 100%;
         text-align: center;
         margin: 0px 0;
-
     }
 
     .images-row {
         margin-top: 10px; /* Remove margin since button is above */
         order: 1;
+        padding: 30px
     
     }
 
@@ -147,7 +148,7 @@ h3 {
     }
 
     .hidden-text {
-        position: fixed;
+        position: sticky;
         background-color: transparent
         padding: 0px 0;
         display: none;
