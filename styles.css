@@ -134,14 +134,14 @@ h3 {
         margin-top: 0px; /* Remove margin since button is above */
         order: 1;
         background-color: white;
-        padding: 30px
+        padding: 0px
     
     }
 
     .image-container {
         width: 100%;
         margin-bottom: 0px;
-        padding: 0px;
+        padding: 40px;
     }
 
     
@@ -153,9 +153,9 @@ h3 {
 
     .hidden-text {
         position: auto;
-        background-color: transparent
+        background-color: transparent;
         padding: 0px 0;
         display: none;
-        color:  #b9a775;
+        color:  #d1b981;
     }
 }
